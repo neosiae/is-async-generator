@@ -11,7 +11,7 @@ Check if given function is asynchronous generator or not.
 ## Usage
 
 ```javascript
-const isAsyncGenerator = require('is-async-generator');
+const isAsyncGenerator = require('is-async-generator')
 
 isAsyncGenerator(async function * () {}) // true
 
