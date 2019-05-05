@@ -1,6 +1,6 @@
 {
   "name": "is-async-generator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Check if given function is asynchronous generator or not.",
   "main": "index.js",
   "scripts": {
