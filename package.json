@@ -1,0 +1,29 @@
+{
+  "name": "is-async-generator",
+  "version": "0.1.0",
+  "description": "Check if given function is asynchronous generator or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.spec.js && standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neosiae/is-async-generator.git"
+  },
+  "keywords": [
+    "check",
+    "async",
+    "generator",
+    "function"
+  ],
+  "author": "Denis Kotlica <neosiae@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neosiae/is-async-generator/issues"
+  },
+  "homepage": "https://github.com/neosiae/is-async-generator#readme",
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tape": "^4.10.1"
+  }
+}
