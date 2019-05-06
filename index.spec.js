@@ -2,9 +2,9 @@ const test = require('tape')
 const isAsyncGenerator = require('./index.js')
 
 test('async generator', t => {
-  async function * asyncFn () {}
+  async function * asyncGenerator () {}
 
-  t.equal(isAsyncGenerator(asyncFn), true)
+  t.equal(isAsyncGenerator(asyncGenerator), true)
   t.end()
 })
 
@@ -14,9 +14,9 @@ test('anonymous async generator', t => {
 })
 
 test('generator', t => {
-  function * asyncFn () {}
+  function * generator () {}
 
-  t.equal(isAsyncGenerator(asyncFn), false)
+  t.equal(isAsyncGenerator(generator), false)
   t.end()
 })
 
